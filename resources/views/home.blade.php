@@ -5,7 +5,10 @@
 
         @foreach ($return as $elem)
             <div class="card">
-                <h4>{{ $elem['title'] }}</h4>
+                <div>
+                    <img src="{{$elem['thumb']}}" alt="">
+                </div>
+                <p class="title">{{ $elem['title'] }}</p>
             </div>
         @endforeach
 
