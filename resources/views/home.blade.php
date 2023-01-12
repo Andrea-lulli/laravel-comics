@@ -1,9 +1,13 @@
 @extends('layout.app')
 
 @section('main-content')
-    <div>
+    <div class="box-card">
+
         @foreach ($return as $elem)
-            <h4>{{ $elem['title'] }}</h4>
+            <div class="card">
+                <h4>{{ $elem['title'] }}</h4>
+            </div>
         @endforeach
+
     </div>
 @endsection

@@ -1,0 +1,17 @@
+.card{
+    
+    flex-basis: 40%;
+
+    
+}
+.box-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
