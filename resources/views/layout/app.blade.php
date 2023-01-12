@@ -11,6 +11,9 @@
     <header>
         @include('partials.menu')
     </header>
+    <div class="jumbotron">
+
+    </div>
     <main>
         @yield('main-content')
     </main>
