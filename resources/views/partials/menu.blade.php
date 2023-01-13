@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <div class="logo">
-          <a href="/"><img src="{{ asset('images/dc-logo.png') }}" alt="logo" href="/"></a>
+          <a href="/"><img src="{{ asset('images/dc-logo.png') }}" alt="logo" href="{{ route('home') }}"></a>
             
         </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,10 +10,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item li-nav">
-            <a class="nav-link active" aria-current="page" href="/component-menu/characters">CHARACTERS</a>
+            <a class="nav-link active" aria-current="page" href="{{ route('characters')}}">CHARACTERS</a>
           </li>
           <li class="nav-item li-nav">
-            <a class="nav-link" href="/component-menu/comics">COMICS</a>
+            <a class="nav-link" href="{{ route('index.comics')}}">COMICS</a>
           </li>
           <li class="nav-item li-nav">
             <a class="nav-link" href="#">MOVIES</a>
