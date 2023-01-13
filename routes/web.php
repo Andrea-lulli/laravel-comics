@@ -14,21 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-
-
     return view('home');
 })->name('home');
 
+
 Route::get('/component-menu/characters', function () {
-
-
     return view('component-menu.characters');
 })->name('characters');
+
+
 
 Route::get('/component-menu/comics', function () {
 
     $comics = config('comics');
-
     //dd($comics);
 
     return view('component-menu/comics.comics', compact('comics'));
@@ -40,13 +38,12 @@ Route::get('/component-menu/comics/{id}', function ($id) {
 
     $comics = config('comics');
 
-    if( is_numeric($id) && $id >= 0 && $id < count($comics) ){
+    if (is_numeric($id) && $id >= 0 && $id < count($comics)) {
         $comics_singolo = $comics[$id];
     } else {
         abort(404);
     }
 
     //dd($comics_singolo);
-
     return view('component-menu/comics.show', compact('comics_singolo'));
 })->name('show.comics');

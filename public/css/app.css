@@ -1,10 +1,7 @@
 .card {
-
     flex-basis: 15%;
     margin: 30px 0;
     background-color: black !important;
-
-
 }
 
 .box-card {
@@ -14,7 +11,6 @@
     width: 70%;
     margin: 0 auto;
     text-align: center;
-
 }
 
 .title {
@@ -34,24 +30,22 @@ div img {
        object-fit: cover;
     -o-object-position: top;
        object-position: top;
-
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
-.home{
-background-color: black;
-height: 400px;
-color: white;
-text-align: center;
+.home {
+    background-color: black;
+    height: 400px;
+    color: white;
+    text-align: center;
 }
 
-a{
+a {
     text-decoration: none !important;
 }.jumbotron{
     background-image: url('../images/jumbotron.jpg');
@@ -168,10 +162,6 @@ a{
   }.card-singole img {
     margin: 40px 0 0 0;
     width: 100%;
-    
-    
-
-
 }
 
 .box-singolo {
@@ -179,7 +169,6 @@ a{
     width: 30%;
     margin: 0 auto;
     text-align: center;
-
 }
 
 .title-singole {
@@ -189,5 +178,3 @@ a{
     margin-bottom: 0rem;
     padding: 10px 0;
 }
-
-
